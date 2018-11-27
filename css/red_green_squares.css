@@ -1,0 +1,22 @@
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.column {
+    max-width: 480px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+        box-sizing: border-box;
+  }
